@@ -1,0 +1,29 @@
+<section>
+  <div class="form-box">
+    <div class="form-value">
+      <form action="">
+        <h2>Registrar</h2>
+        <div class="inputbox">
+          <mat-icon class="iconmail">account_box</mat-icon>
+          <input type="name" required />
+          <label for="">Nome</label>
+        </div>
+        <div class="inputbox">
+          <mat-icon class="iconmail">email</mat-icon>
+          <input type="email"  name="email" />
+          <label for="">E-mail</label>
+        </div>
+        <div class="inputbox">
+          <mat-icon class="iconlock">lock_open</mat-icon>
+          <input type="password" required />
+          <label for="">Senha</label>
+        </div>
+        <button>Registrar</button>
+        <div class="register">
+          <p>Já tem uma conta? <a (click)="redirecionaLogin()">Faça login</a></p>
+      </div>
+
+      </form>
+    </div>
+  </div>
+</section>
